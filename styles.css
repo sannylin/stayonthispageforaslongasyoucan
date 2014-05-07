@@ -1,0 +1,35 @@
+#title{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+body { 
+  font-family: Monaco;
+  font-weight:bold;
+  -webkit-user-select:none;
+  text-align:center;
+  font-size: .8em;
+  display: inline;
+}
+
+#login{
+  display: none;
+}
+
+#endgame{
+  display: none;
+}
+
+.hovertext { color:red; }
+.activatedtext { color:purple; }
+.offtext { color:black; }
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+  padding-bottom: 50px;
+}

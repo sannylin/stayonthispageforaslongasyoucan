@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+  <meta name="author" content="Sanny Lin for ARTS445 Spring 2014, Net Art with Ben Grosser at University of Illinois at Urbana-Champaign.">
+
+  <link href="styles.css" rel="stylesheet" type="text/css">
+
+  <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> 
+  <script type='text/javascript'
+          src='https://cdn.firebase.com/js/simple-login/1.3.2/firebase-simple-login.js'></script>
+    <script type='text/javascript'
+          src='virtualsurvivor.js'></script>
+  
+  <title>Stay on this page for as long as you can</title> 
+  </head>
+ 
+  <body> 
+
+  <div id="login" style="padding-top:10%; text-align:center;">You must log in to play. Click to log in with Facebook.</div>
+
+  <div id="container" style="padding-top: 10%;">
+      <div id="title">Stay on this page for as long as you can.</div>
+      <div class="clearfix"></div>
+
+      <div id="game">
+        <div>You have stayed on this page for <div id="timer" style="display: inline; color: #c0392b;"></div> seconds.</div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="endgame">
+        <div>You <div id="lost" style="display: inline;"></div>!</div>
+
+        <div id="score" style="display: inline;"></div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="plus" style="color: #999;"><div id="count" style="display: inline;"></div> people have been outcast.</div>
+      <div class="clearfix"></div>
+
+      <div id="scoreboard" style="color: #999;">The high score is <div id="topScorer" style="display: inline;"></div> with <div id="topScore" style="display: inline;"></div> seconds.
+      </div>
+</div>
+
+  </body>
+</html>
